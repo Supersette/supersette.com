@@ -215,6 +215,14 @@ h3{
   overflow:hidden;
 }
 
+.horseriders{
+  background-image:url("../images/horseriders.png");
+  background-size: cover;
+  height:80%;
+  width:100%;
+  overflow:hidden;
+}
+
 .lines{
   background-image:url("../images/lines.png");
   background-size: cover;
@@ -392,7 +400,7 @@ h3{
   background: linear-gradient(-45deg, #9FE2BF, #BB8FCE, #23a6d5, #33DBEF);
   background-size: 400% 400%;
   position: relative;
-  animation: change 6s ease-in-out infinite;
+  animation: change 4s ease-in-out infinite;
 }
 
 #maps{
@@ -401,7 +409,7 @@ h3{
   background: linear-gradient(-45deg, #e73c7e, #E65B48, #e73c7e, #23a6d5);
   background-size: 400% 400%;
   position: relative;
-  animation: change 6s ease-in-out infinite;
+  animation: change 4s ease-in-out infinite;
 }
 
 #trailers{
@@ -410,7 +418,7 @@ h3{
   background: linear-gradient(-45deg, #FA8072, #82E0AA, #F0B27A, #FA8072);
   background-size: 400% 400%;
   position: relative;
-  animation: change 6s ease-in-out infinite;
+  animation: change 4s ease-in-out infinite;
 }
 
 @keyframes change {
@@ -536,6 +544,9 @@ iframe{
       background-size: contain;
   }
   .hmw{
+      background-size: contain;
+  }
+  .horseriders{
       background-size: contain;
   }
   .lines{
