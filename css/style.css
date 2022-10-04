@@ -223,6 +223,30 @@ h3{
   overflow:hidden;
 }
 
+.reef{
+  background-image:url("../images/reef.png");
+  background-size: cover;
+  height:80%;
+  width:100%;
+  overflow:hidden;
+}
+
+.ashen{
+  background-image:url("../images/ashen.png");
+  background-size: cover;
+  height:80%;
+  width:100%;
+  overflow:hidden;
+}
+
+.inanis_temple{
+  background-image:url("../images/inanis_temple.png");
+  background-size: cover;
+  height:80%;
+  width:100%;
+  overflow:hidden;
+}
+
 .lines{
   background-image:url("../images/lines.png");
   background-size: cover;
@@ -547,6 +571,15 @@ iframe{
       background-size: contain;
   }
   .horseriders{
+      background-size: contain;
+  }
+  .reef{
+      background-size: contain;
+  }
+  .ashen{
+      background-size: contain;
+  }
+  .inanis_temple{
       background-size: contain;
   }
   .lines{
