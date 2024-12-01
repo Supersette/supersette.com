@@ -80,9 +80,32 @@ h3{
 }
 
 
+/*start of hi text*/
+
+h4 {
+  font-size: 40px; /* Larger subtitle */
+  font-weight: bold;
+  font-family: "Arial", "Courier New", monospace;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.looping-text {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block; /* Ensures it behaves like a box */
+  width: 80px; /* Adjust this to fit your longest text, like 'hi...' */
+}
 
 
 
+/* end of hi text*/
 
 
 .map_name{
@@ -122,7 +145,7 @@ h3{
   text-decoration:none;
   font-weight:bold;
   padding: 6px 4px;
-  background-color:#e73c7e;
+  background-color:rgba(233, 100, 245, 0.6);
   border-radius:7px;
 }
 
@@ -132,7 +155,7 @@ h3{
   text-decoration:none;
   font-weight:bold;
   padding: 6px 4px;
-  background-color:#e73c7e;
+  background-color:rgba(233, 100, 245, 0.5);
   border-radius:7px;
 }
 
@@ -142,13 +165,14 @@ h3{
   text-decoration:none;
   font-weight:bold;
   padding: 6px 8px;
-  background-color:#E65B48;
+  background-color:rgba(255, 0, 0, 0.6);
   border-radius:7px;
 }
 
 #download a:hover{
   box-shadow: 0 1px 15px rgba(0,0,0,0.5);
-  transition:0.2s;
+  transition:0.3s;
+  background-color:rgba(255, 0, 0, 1);
 }
 
 #trailer a{
@@ -157,13 +181,14 @@ h3{
   text-decoration:none;
   font-weight:bold;
   padding: 6px 8px;
-  background-color:#E65B48;
+  background-color:rgba(255, 0, 0, 0.6);
   border-radius:7px;
 }
 
 #trailer a:hover{
   box-shadow: 0 1px 15px rgba(0,0,0,0.5);
-  transition:0.2s;
+  transition:0.3s;
+  background-color:rgba(255, 0, 0, 1);
 }
 
 
@@ -173,6 +198,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .pillarninjas{
@@ -181,6 +207,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 70%;
 }
 
 .biomerun2{
@@ -189,6 +216,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 35%;
 }
 
 .bee{
@@ -197,6 +225,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .hmw{
@@ -205,6 +234,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 25%;
 }
 
 .turfwars{
@@ -213,6 +243,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .horseriders{
@@ -221,6 +252,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .reef{
@@ -229,6 +261,25 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 30%;
+}
+
+.remix{
+  background-image:url("../images/biome_run_remix.png");
+  background-size: cover;
+  height:80%;
+  width:100%;
+  overflow:hidden;
+  background-position: 50% 50%;
+}
+
+.elytra{
+  background-image:url("../images/elytra_factory.png");
+  background-size: cover;
+  height:80%;
+  width:100%;
+  overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .ashen{
@@ -237,6 +288,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .inanis_temple{
@@ -245,6 +297,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 25%;
 }
 
 .lines{
@@ -253,6 +306,7 @@ h3{
   height:80%;
   width:100%;
   overflow:hidden;
+  background-position: 50% 50%;
 }
 
 .map_container{
@@ -314,13 +368,19 @@ h3{
 
 .friendly_text{
   position:relative;
+  padding:5px;
   left:0%;
   top:20%;
-  width:50%;
-  background-color:turquoise;
+  width:400px;
+  background-color:rgba(64, 224, 208, 0.3);
   border-radius:7px;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
   text-decoration: none;
+}
+
+.friendly_text:hover{
+  transition:0.3s;
+  background-color: rgba(64, 224, 208, 0.8)
 }
 
 .banner_opacity:hover{

@@ -1,0 +1,40 @@
+/* Game Container Styles */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto; /* Center in the parent section */
+  max-width: 300px; /* Optional: Restrict game width for better layout compatibility */
+}
+
+/* Game Window */
+#game-window {
+  position: relative;
+  width: 600px; /* Fixed width for the game area */
+  height: 400px; /* Fixed height for the game area */
+  background: white; /* Sky-like background */
+  border: 5px solid black;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Score Display */
+#score-display {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Falling Object Styles */
+.falling-object {
+  position: absolute;
+  background: black; /* Default orange color */
+  border-radius: 50%; /* Circular shape */
+  cursor: pointer;
+}
+
+/* Red Ball */
+.red-ball {
+  background: #ff0000; /* Red color for red balls */
+}
