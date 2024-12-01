@@ -249,6 +249,9 @@ section#portfolio, nav, footer {
 
         /* Mobile responsive: Images stack vertically */
         @media (max-width: 768px) {
+          .desktop-only {
+            display:none;
+          }
             .map-details {
               font-size:20px;
             }
