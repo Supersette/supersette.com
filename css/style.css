@@ -866,8 +866,3 @@ iframe{
   .footer h3 { font-size: 22px; margin: 0 0 24px; }
   .space { height: 48px; }
 }
-
-/* Separate the homepage map link from the featured image on phones. */
-@media (max-width: 767px) {
-  #home .friendly_text { margin-top: 32px; }
-}
