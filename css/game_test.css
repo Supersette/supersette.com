@@ -38,3 +38,7 @@
 .red-ball {
   background: #ff0000; /* Red color for red balls */
 }
+
+/* Fit the game inside phones as well as desktop screens. */
+.game-container { width: calc(100% - 32px); max-width: 610px; }
+#game-window { box-sizing: border-box; width: 100%; }
